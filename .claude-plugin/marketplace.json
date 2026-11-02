@@ -1,0 +1,22 @@
+{
+  "name": "tosea-skills",
+  "owner": {
+    "name": "Tosea",
+    "url": "https://tosea.ai"
+  },
+  "metadata": {
+    "description": "Agent skills by Tosea for editable PowerPoint workflows",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "editable-pptx",
+      "description": "Convert PDFs, slide screenshots, NotebookLM exports and AI-generated slide images into editable PowerPoint (.pptx) via the Reslide API",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/pptx-convert"
+      ]
+    }
+  ]
+}
